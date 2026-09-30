@@ -1,18 +1,32 @@
 {
   "machines": [
     {
-      "name": "RP23CNC",
+      "name": "RP23CNC Basic",
       "profileURL": "https://github.com/phil-barrett/grblhal-profiles/blob/main/profiles/RP23CNC.json",
       "URL": "https://github.com/phil-barrett/grblhal-profiles",
       "type": "motion controller",
-      "description": "RP235xB Based / 5 Axis / grblHAL"
+      "description": "RP235xB Based / 3 Axis / Y Moving Gantry / grblHAL"
     },
     {
-      "name": "T41U5XBB",
+      "name": "RP23CNC Networking",
+      "profileURL": "https://github.com/phil-barrett/grblhal-profiles/blob/main/profiles/RP23CNC-Eth.json",
+      "URL": "https://github.com/phil-barrett/grblhal-profiles",
+      "type": "motion controller",
+      "description": "RP235xB Based / Ethernet / 3 Axis / Y Moving Gantry / grblHAL"
+    },
+    {
+      "name": "T41U5XBB Basic",
       "profileURL": "https://github.com/phil-barrett/grblhal-profiles/blob/main/profiles/T41U5XBB.json",
       "URL": "https://github.com/phil-barrett/grblhal-profiles",
       "type": "motion controller",
-      "description": "Teensy 4.1 Based / 5 Axis / grblHAL"
+      "description": "Teensy 4.1 Based / 3 Axis / Y Moving Gantry / grblHAL"
+    },
+    {
+      "name": "T41U5XBB Networking",
+      "profileURL": "https://github.com/phil-barrett/grblhal-profiles/blob/main/profiles/T41U5XBB-Eth.json",
+      "URL": "https://github.com/phil-barrett/grblhal-profiles",
+      "type": "motion controller",
+      "description": "Teensy 4.1 Based / Ethernet / 3 Axis / Y Moving Gantry / grblHAL"
     }
   ]
 }
