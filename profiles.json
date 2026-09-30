@@ -1,0 +1,12 @@
+{
+  "machines": [
+    {
+      "name": "BrookWood Design",
+      "profileURL": "https://github.com/phil-barrett/grblhal-profiles/blob/main/profiles/T41U5XBB.json",
+      "profileURL": "https://github.com/coolboysalam/grblhal-profiles/blob/main/profiles/voron-cascade.json",
+      "URL": "https://github.com/phil-barrett/grblhal-profiles",
+      "type": "motion controller",
+      "description": "Teensy 4.1 Based / 5 Axis / grblHAL"
+    }
+  ]
+}
